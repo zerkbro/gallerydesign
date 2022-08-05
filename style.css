@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.imgContainer{
+    display: flex;
+    max-width: 100%;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.groupImg{
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    border: 3px solid rosybrown;
+    border-radius: 10px;
+
+}
+.groupImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
